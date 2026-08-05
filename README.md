@@ -10,10 +10,6 @@
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](requirements.txt)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-> Once pushed to GitHub, swap the CI badge for the live one from
-> **Actions → ci.yml → "Create status badge"** so it reflects real build
-> status instead of a static badge.
-
 DecodeBot recognizes greetings, farewells, and several other conversational
 intents through explicit, human-readable rules — **no machine learning, no
 external API calls**. It runs as a continuous command-line loop and was
@@ -140,7 +136,7 @@ rule-based-ai-chatbot/
 **Requirements:** Python 3.9+. No third-party runtime packages are needed.
 
 ```bash
-git clone <this-repository-url>
+git clone https://github.com/Intensity-Cloud/rule-based-ai-chatbot.git
 cd rule-based-ai-chatbot
 
 # Optional but recommended: create a virtual environment
