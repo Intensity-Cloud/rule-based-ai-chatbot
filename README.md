@@ -2,7 +2,7 @@
 
 **A deterministic, rule-based conversational engine built in pure Python.**
 
-[![CI](https://img.shields.io/badge/CI-passing-brightgreen)](.github/workflows/ci.yml)
+[![CI](https://github.com/Intensity-Cloud/rule-based-ai-chatbot/actions/workflows/ci.yml/badge.svg)](https://github.com/Intensity-Cloud/rule-based-ai-chatbot/actions/workflows/ci.yml)
 [![Tests](https://img.shields.io/badge/tests-46%20passing-brightgreen)](tests)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](pyproject.toml)
 [![Type Checked](https://img.shields.io/badge/mypy-strict-blue)](pyproject.toml)
