@@ -1,0 +1,101 @@
+{
+  "intents": {
+    "greeting": {
+      "triggers": [
+        "hi",
+        "hello",
+        "hey",
+        "yo",
+        "hiya",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello there! How can I help you today?",
+        "Hi! What can I do for you?",
+        "Hey! Great to see you."
+      ]
+    },
+    "farewell": {
+      "triggers": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see ya",
+        "farewell",
+        "later"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day.",
+        "See you later!",
+        "Take care, bye for now."
+      ]
+    },
+    "thanks": {
+      "triggers": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "thx",
+        "cheers"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime, happy to help.",
+        "No problem at all!"
+      ]
+    },
+    "identity": {
+      "triggers": [
+        "who are you",
+        "what are you",
+        "your name",
+        "what is your name"
+      ],
+      "responses": [
+        "I'm DecodeBot, a rule-based chatbot built for the DecodeLabs AI internship.",
+        "I'm an AI assistant powered by simple, explicit decision logic — no machine learning involved."
+      ]
+    },
+    "capabilities": {
+      "triggers": [
+        "what can you do",
+        "help",
+        "capabilities",
+        "what do you do"
+      ],
+      "responses": [
+        "I can respond to greetings, thanks, and farewells, and answer a few basic questions using predefined rules.",
+        "Right now I understand a fixed set of intents like greetings, thanks, mood check-ins, and farewells."
+      ]
+    },
+    "mood": {
+      "triggers": [
+        "how are you",
+        "how are you doing",
+        "how is it going",
+        "hows it going"
+      ],
+      "responses": [
+        "I'm just a program, but I'm running smoothly! How about you?",
+        "Doing great, thanks for asking!"
+      ]
+    },
+    "creator": {
+      "triggers": [
+        "who made you",
+        "who created you",
+        "who built you"
+      ],
+      "responses": [
+        "I was built as Project 1 of the DecodeLabs AI Engineering internship track."
+      ]
+    }
+  },
+  "fallback_responses": [
+    "I do not understand. Could you rephrase that?",
+    "Sorry, I don't have a rule for that yet.",
+    "I'm not sure how to respond to that. Try asking something else, like 'help'."
+  ]
+}

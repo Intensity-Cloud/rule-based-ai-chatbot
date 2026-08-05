@@ -1,0 +1,7 @@
+# Runtime dependencies for DecodeBot.
+#
+# This project deliberately uses only the Python standard library
+# (json, re, logging, pathlib, dataclasses, random) so it runs anywhere
+# Python 3.9+ is installed, with zero install friction.
+#
+# See requirements-dev.txt for testing/tooling dependencies.
